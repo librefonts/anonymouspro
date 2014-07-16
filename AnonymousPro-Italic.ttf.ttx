@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="2.4">
+  <GlyphOrder src="AnonymousPro-Italic.ttf.GlyphOrder.ttx"/>
+  <head src="AnonymousPro-Italic.ttf._h_e_a_d.ttx"/>
+  <hhea src="AnonymousPro-Italic.ttf._h_h_e_a.ttx"/>
+  <maxp src="AnonymousPro-Italic.ttf._m_a_x_p.ttx"/>
+  <OS_2 src="AnonymousPro-Italic.ttf.O_S_2f_2.ttx"/>
+  <hmtx src="AnonymousPro-Italic.ttf._h_m_t_x.ttx"/>
+  <LTSH src="AnonymousPro-Italic.ttf.L_T_S_H_.ttx"/>
+  <VDMX src="AnonymousPro-Italic.ttf.V_D_M_X_.ttx"/>
+  <hdmx src="AnonymousPro-Italic.ttf._h_d_m_x.ttx"/>
+  <cmap src="AnonymousPro-Italic.ttf._c_m_a_p.ttx"/>
+  <fpgm src="AnonymousPro-Italic.ttf._f_p_g_m.ttx"/>
+  <prep src="AnonymousPro-Italic.ttf._p_r_e_p.ttx"/>
+  <cvt src="AnonymousPro-Italic.ttf._c_v_t.ttx"/>
+  <loca src="AnonymousPro-Italic.ttf._l_o_c_a.ttx"/>
+  <glyf src="AnonymousPro-Italic.ttf._g_l_y_f.ttx"/>
+  <name src="AnonymousPro-Italic.ttf._n_a_m_e.ttx"/>
+  <post src="AnonymousPro-Italic.ttf._p_o_s_t.ttx"/>
+  <gasp src="AnonymousPro-Italic.ttf._g_a_s_p.ttx"/>
+  <EBDT src="AnonymousPro-Italic.ttf.E_B_D_T_.ttx"/>
+  <EBLC src="AnonymousPro-Italic.ttf.E_B_L_C_.ttx"/>
+  <EBSC src="AnonymousPro-Italic.ttf.E_B_S_C_.ttx"/>
+</ttFont>
