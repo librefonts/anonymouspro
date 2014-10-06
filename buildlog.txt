@@ -1,0 +1,84 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/anonymouspro/METADATA.json /home/travis/build/fontdirectory/anonymouspro/builds/build
+$ cp -a /home/travis/build/fontdirectory/anonymouspro/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/anonymouspro/builds/build
+$ cp -a /home/travis/build/fontdirectory/anonymouspro/FONTLOG.txt /home/travis/build/fontdirectory/anonymouspro/builds/build
+$ cp -a AnonymousPro-Regular.ttf.ttx AnonymousPro-Italic.ttf.ttx AnonymousPro-BoldItalic.ttf.ttx AnonymousPro-Bold.ttf.ttx AnonymousPro-Regular.ttf._p_r_e_p.ttx AnonymousPro-Regular.ttf._p_o_s_t.ttx AnonymousPro-Regular.ttf._n_a_m_e.ttx AnonymousPro-Regular.ttf._m_a_x_p.ttx AnonymousPro-Regular.ttf._l_o_c_a.ttx AnonymousPro-Regular.ttf._h_m_t_x.ttx AnonymousPro-Regular.ttf._h_h_e_a.ttx AnonymousPro-Regular.ttf._h_e_a_d.ttx AnonymousPro-Regular.ttf._h_d_m_x.ttx AnonymousPro-Regular.ttf._g_l_y_f.ttx AnonymousPro-Regular.ttf._g_a_s_p.ttx AnonymousPro-Regular.ttf._f_p_g_m.ttx AnonymousPro-Regular.ttf._c_v_t.ttx AnonymousPro-Regular.ttf._c_m_a_p.ttx AnonymousPro-Regular.ttf.V_D_M_X_.ttx AnonymousPro-Regular.ttf.O_S_2f_2.ttx AnonymousPro-Regular.ttf.L_T_S_H_.ttx AnonymousPro-Regular.ttf.GlyphOrder.ttx AnonymousPro-Regular.ttf.E_B_S_C_.ttx AnonymousPro-Regular.ttf.E_B_L_C_.ttx AnonymousPro-Regular.ttf.E_B_D_T_.ttx AnonymousPro-Italic.ttf._p_r_e_p.ttx AnonymousPro-Italic.ttf._p_o_s_t.ttx AnonymousPro-Italic.ttf._n_a_m_e.ttx AnonymousPro-Italic.ttf._m_a_x_p.ttx AnonymousPro-Italic.ttf._l_o_c_a.ttx AnonymousPro-Italic.ttf._h_m_t_x.ttx AnonymousPro-Italic.ttf._h_h_e_a.ttx AnonymousPro-Italic.ttf._h_e_a_d.ttx AnonymousPro-Italic.ttf._h_d_m_x.ttx AnonymousPro-Italic.ttf._g_l_y_f.ttx AnonymousPro-Italic.ttf._g_a_s_p.ttx AnonymousPro-Italic.ttf._f_p_g_m.ttx AnonymousPro-Italic.ttf._c_v_t.ttx AnonymousPro-Italic.ttf._c_m_a_p.ttx AnonymousPro-Italic.ttf.V_D_M_X_.ttx AnonymousPro-Italic.ttf.O_S_2f_2.ttx AnonymousPro-Italic.ttf.L_T_S_H_.ttx AnonymousPro-Italic.ttf.GlyphOrder.ttx AnonymousPro-Italic.ttf.E_B_S_C_.ttx AnonymousPro-Italic.ttf.E_B_L_C_.ttx AnonymousPro-Italic.ttf.E_B_D_T_.ttx AnonymousPro-BoldItalic.ttf._p_r_e_p.ttx AnonymousPro-BoldItalic.ttf._p_o_s_t.ttx AnonymousPro-BoldItalic.ttf._n_a_m_e.ttx AnonymousPro-BoldItalic.ttf._m_a_x_p.ttx AnonymousPro-BoldItalic.ttf._l_o_c_a.ttx AnonymousPro-BoldItalic.ttf._h_m_t_x.ttx AnonymousPro-BoldItalic.ttf._h_h_e_a.ttx AnonymousPro-BoldItalic.ttf._h_e_a_d.ttx AnonymousPro-BoldItalic.ttf._h_d_m_x.ttx AnonymousPro-BoldItalic.ttf._g_l_y_f.ttx AnonymousPro-BoldItalic.ttf._g_a_s_p.ttx AnonymousPro-BoldItalic.ttf._f_p_g_m.ttx AnonymousPro-BoldItalic.ttf._c_v_t.ttx AnonymousPro-BoldItalic.ttf._c_m_a_p.ttx AnonymousPro-BoldItalic.ttf.V_D_M_X_.ttx AnonymousPro-BoldItalic.ttf.O_S_2f_2.ttx AnonymousPro-BoldItalic.ttf.L_T_S_H_.ttx AnonymousPro-BoldItalic.ttf.GlyphOrder.ttx AnonymousPro-BoldItalic.ttf.E_B_S_C_.ttx AnonymousPro-BoldItalic.ttf.E_B_L_C_.ttx AnonymousPro-BoldItalic.ttf.E_B_D_T_.ttx AnonymousPro-Bold.ttf._p_r_e_p.ttx AnonymousPro-Bold.ttf._p_o_s_t.ttx AnonymousPro-Bold.ttf._n_a_m_e.ttx AnonymousPro-Bold.ttf._m_a_x_p.ttx AnonymousPro-Bold.ttf._l_o_c_a.ttx AnonymousPro-Bold.ttf._h_m_t_x.ttx AnonymousPro-Bold.ttf._h_h_e_a.ttx AnonymousPro-Bold.ttf._h_e_a_d.ttx AnonymousPro-Bold.ttf._h_d_m_x.ttx AnonymousPro-Bold.ttf._g_l_y_f.ttx AnonymousPro-Bold.ttf._g_a_s_p.ttx AnonymousPro-Bold.ttf._f_p_g_m.ttx AnonymousPro-Bold.ttf._c_v_t.ttx AnonymousPro-Bold.ttf._c_m_a_p.ttx AnonymousPro-Bold.ttf.V_D_M_X_.ttx AnonymousPro-Bold.ttf.O_S_2f_2.ttx AnonymousPro-Bold.ttf.L_T_S_H_.ttx AnonymousPro-Bold.ttf.GlyphOrder.ttx AnonymousPro-Bold.ttf.E_B_S_C_.ttx AnonymousPro-Bold.ttf.E_B_L_C_.ttx AnonymousPro-Bold.ttf.E_B_D_T_.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Bold.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Italic.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Regular.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx AnonymousPro-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Bold.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AnonymousPro-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AnonymousPro-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Italic.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx AnonymousPro-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Regular.ttf.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/anonymouspro/builds/build /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Regular.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Italic.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-BoldItalic.ttx /home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Bold.ttx
+ERROR: BUILD FAILED
+Compiling "/home/travis/build/fontdirectory/anonymouspro/builds/build/sources/AnonymousPro-Regular.ttx" to "/home/travis/build/fontdirectory/anonymouspro/builds/build/AnonymousPro-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'EBDT' table...
+Parsing 'EBLC' table...
+Parsing 'EBSC' table...

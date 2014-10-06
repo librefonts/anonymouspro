@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [AnonymousPro-Regular.ttf.ttx, AnonymousPro-Italic.ttf.ttx, AnonymousPro-BoldItalic.ttf.ttx,
+  AnonymousPro-Bold.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
